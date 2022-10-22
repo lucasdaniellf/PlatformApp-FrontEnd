@@ -58,7 +58,7 @@ export const PlatformGameView = () => {
         !isLoading &&
         <ModelContextProvider>
             <h1 className={classes.titleClass}>
-                {platformGames.length > 0 ? platformInfo.name : "Sem Jogos nesta Plataforma"}
+                {platformGames.length > 0 ? platformInfo.name : `${platformInfo.name} - Sem Jogos nesta Plataforma`}
             </h1>
             <PlatformGameGrid 
                 platformGame={platformGames} 
