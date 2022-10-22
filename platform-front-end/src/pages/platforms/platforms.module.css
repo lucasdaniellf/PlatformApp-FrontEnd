@@ -1,0 +1,35 @@
+.itemButtonClass{
+    width: 80%;
+    padding-block: 3%;
+    font-size: large;
+    margin-inline: 5px;
+}
+
+.titleClass{
+    margin-top: 5%;
+    margin-inline: 50px;
+    text-align: center
+}
+
+.ClassForm input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+ 
+.ClassForm select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ClassForm div{
+    text-align: left;
+}
+  
+.ClassForm label{
+    padding: 8px;
+}
+  

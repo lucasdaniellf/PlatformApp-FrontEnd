@@ -1,0 +1,57 @@
+.classMain{
+    width: 80%;
+    padding: 2%;
+}
+
+.ClassTitle{
+width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.ClassDescricao{
+    font-size: medium;
+    margin: 5px;
+}
+
+.ClassGrupoInformacoes{
+    border:2px solid;
+}
+
+.ClassInformacoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ClassGeneros{
+    padding:0;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ClassForm input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.ClassForm select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+  
+.ClassForm div{
+    text-align: left;
+}
+
+.ClassForm label{
+    padding: 8px;
+}
